@@ -1,0 +1,26 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: UTF-8
+      force-response: true
+  tomcat:
+    uri-encoding: UTF-8
+logging:
+  level:
+    ROOT: info
+    com:
+      hans:
+        eden: DEBUG
+spring:
+  messages:
+    encoding: UTF-8
+  devtools:
+    restart:
+      enabled: true
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+project:
+  title: Atlantis
+  host: "localhost:8080"
